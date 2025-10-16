@@ -26,7 +26,7 @@ export const TrailCards = ({
       }}
     >
       <div className="card bg-cgray w-full h-full shadow-xl border-2 border-gray overflow-hidden text-left">
-        <imgage
+        <image
           src={image}
           className="min-h-[40%]"
           style={{ objectFit: "cover" }}
