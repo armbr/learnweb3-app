@@ -121,7 +121,7 @@ export const UserSection = () => {
         <div className="flex flex-col gap-6">
           <div className="md:flex-row flex-col flex gap-4 justify-between">
             <div className="flex flex-row justify-center items-center">
-              <img
+              <image
                 src={googleUserInfo?.photoURL}
                 alt=""
                 className="w-10 h-10 md:w-16 md:h-16 rounded-full"
