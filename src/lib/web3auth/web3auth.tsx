@@ -35,7 +35,7 @@ import { logEvent } from "firebase/analytics";
 const chainConfig = {
   chainNamespace: CHAIN_NAMESPACES.EIP155,
   chainId: "0xAA36A7",
-  rpcTarget: process.env.NEXT_PUBLIC_RPC_URL || "",
+  rpcTarget: process.env.NEXT_PUBLIC_RPC_TARGET || "",
   displayName: "Sepolia Testnet",
   blockExplorerUrl: "https://sepolia.etherscan.io/",
   ticker: "ETH",
