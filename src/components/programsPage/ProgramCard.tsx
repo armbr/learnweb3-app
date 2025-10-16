@@ -19,7 +19,7 @@ export const ProgramCard = ({
       func={() => router.push(`/programPage/${id}`)}
     >
       <div className="card bg-cgray w-full h-full shadow-xl border-2 border-gray overflow-hidden text-left">
-        <img
+        <image
           src={image}
           className="min-h-[40%]"
           style={{ objectFit: "cover" }}
