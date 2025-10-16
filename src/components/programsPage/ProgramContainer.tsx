@@ -73,7 +73,7 @@ export const ProgramContainer = ({
   return (
     <div className="md:w-2/4 w-full md:h-full flex flex-col justify-start items-start text-neutral bg-cgray md:rounded-box md:overflow-y-auto drop-shadow-2xl">
       <div className="flex flex-col w-full h-2/5 justify-start items-start overflow-hidden">
-        <img
+        <image
           src={program?.banner}
           className="w-full"
           style={{ objectFit: "fill" }}
