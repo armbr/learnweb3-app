@@ -29,20 +29,13 @@ export const UserMenu = () => {
           role="button"
           className="btn btn-ghost btn-circle avatar"
         >
-          <div className="w-9 rounded-full overflow-hidden">
-  {userInfo ? (
-    <Image
-      alt="User Image"
-      src={userInfo.profileImage}
-      width={36}
-      height={36}
-      priority
-      className="rounded-full object-cover"
-    />
-  ) : (
-    <CgProfile className="w-9 h-9" />
-  )}
-</div>
+         <div className="w-9 rounded-full">
+            {userInfo ? (
+              <img alt="User Image" src={userInfo?.profileImage} fetchPriority="high"/>
+            ) : (
+              <CgProfile className="w-9 h-9" />
+            )}
+          </div>
         </div>
         <ul
           tabIndex={0}
